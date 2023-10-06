@@ -1,0 +1,94 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import TimeLineElement from "../components/cv/TimeLine.astro";
+---
+
+<BaseLayout title="Resume" sideBarActiveItemID="cv">
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Profile</div>
+  </div>
+
+  <div class="mb-10 text-justify">
+    I'm a passionate data enthusiast actively searching for opportunities to advance my career in the dynamic realm of data analysis.
+  </div>
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Education</div>
+  </div>
+
+  <div class="time-line-container grid gap-4 mb-10">
+    <TimeLineElement
+      title="Big Data, Inteligencia Artificial & Machine Learning Full Stack Bootcamp"
+      subtitle="Keepcoding Coding School, Madrid, Spain"
+    />
+     
+    <TimeLineElement
+      title="Electronic Engineering"
+      subtitle="I.U.P. Santiago Mariño, Barcelona, Venezuela"
+    />
+  
+  </div>
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Experience</div>
+  </div>
+
+  <div class="time-line-container mb-10">
+    <TimeLineElement
+      title="IT Support Analyst"
+      subtitle="From 2017 to 2023 at PTY Tech Support, Panama City, Panama"
+    >
+    Provide technical solutions to address user issues with their devices while maintaining seamless and effective communication between clients and assigned technicians for resolving cases.
+    </TimeLineElement>
+    <!-- 
+    <TimeLineElement
+      title="Job Title at Project or Company Name"
+      subtitle="From [Start Date] to [End Date] at [Company], [City], [Country]"
+    >
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
+    </TimeLineElement>
+    <TimeLineElement
+      title="Job Title at Project or Company Name"
+      subtitle="From [Start Date] to [End Date] at [Company], [City], [Country]"
+    >
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
+    </TimeLineElement>
+  -->
+  </div>
+<!-- 
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Certifications</div>
+  </div>
+
+  <ul class="list-disc mx-6 mb-10 grid gap-2">
+    <li>
+      <a href="#" target="_blank"> Certification Name (with link)</a>
+    </li>
+    <li>
+      <a href="#" target="_blank"> Certification Name (with link)</a>
+    </li>
+  </ul>
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Skills</div>
+  </div>
+
+  <ul class="list-disc md:columns-5 columns-2 mx-6">
+    <li>Skill Name</li>
+    <li>Skill Name</li>
+    <li>Skill Name</li>
+    <li>Skill Name</li>
+    <li>Skill Name</li>
+    <li>Skill Name</li>
+    <li>Skill Name</li>
+    <li>Skill Name</li>
+    <li>Skill Name</li>
+    <li>Skill Name</li>
+    <li>Skill Name</li>
+    <li>Skill Name</li>
+    <li>Skill Name</li>
+    <li>Skill Name</li>
+    <li>Skill Name</li>
+  </ul>
+  -->
+</BaseLayout>
